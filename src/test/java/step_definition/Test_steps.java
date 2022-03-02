@@ -12,6 +12,7 @@ public class Test_steps {
 	public static WebDriver driver;
 	@Given("User is on Home Page")
 	public void user_is_on_Home_Page() {
+		//Hi Shiva thanks for Inviting me for Party
 	   System.out.println("user_is_on_Home_Page()");
 	   System.setProperty("webdriver.chrome.driver", "C:\\driver\\chromedriver.exe");
 		 driver=new ChromeDriver();
