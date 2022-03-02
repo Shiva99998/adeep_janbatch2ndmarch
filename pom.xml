@@ -9,8 +9,7 @@
 
   <name>com.cucumber_25_feb_2022_99</name>
   <url>http://maven.apache.org</url>
-
-  <properties>
+properties>
 		<java.version>1.8</java.version>
 		<junit.version>4.12</junit.version>
 		<cucumber.version>4.0.0</cucumber.version>
@@ -34,11 +33,10 @@
 		</dependency>
 		
 		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-java</artifactId>
-			<version>3.141.59</version>
-		</dependency>
-		
+<groupId>org.seleniumhq.selenium</groupId>
+<artifactId>selenium-java</artifactId>
+<version>3.141.59</version>
+</dependency>
 	<!--  	
 		<dependency>
     <groupId>io.cucumber</groupId>
@@ -72,15 +70,9 @@
 	<dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>6.9.5</version>
+    <version>7.4.0</version>
     <scope>test</scope>
 </dependency>	
-<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-<dependency>
-    <groupId>commons-io</groupId>
-    <artifactId>commons-io</artifactId>
-    <version>2.11.0</version>
-</dependency>
 		
 	</dependencies>
 	<build>
@@ -104,4 +96,3 @@
 		</plugins>
 	</build>
 </project>
-  
